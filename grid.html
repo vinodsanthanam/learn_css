@@ -1,32 +1,35 @@
 <html>
-  <head>
-    <style>
-      body {
-        box-sizing: border-box;
-      }
-      .box {
-        border: 1px solid;
-        border-background = black;
-        width: 25%;
-        display: inline-block;
-        padding: 2%;
-        margin: 1%;
-        text-align: center;
-      }
-      .grid {
-        padding: 2%;
-        border: 1px solid;
-        border-background = black;
-        text-align: justify;
-      }
-      .break {
-        display: inline-block;
-        width: 30%;
-      }
-      
-    </style>
-  </head>
-  <body>
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    .box {
+      border: 1px solid;
+      border-background=black;
+      width: 25%;
+      display: inline-block;
+      padding: 2%;
+      margin: 1%;
+      text-align: center;
+    }
+    .grid {
+      padding: 2%;
+      border: 1px solid;
+      border-background=black;
+      text-align: justify;
+    }
+    .break {
+      display: inline-block;
+      width: 30%;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
     <div class="grid">
       <div class="box">text</div>
       <div class="box">text</div>
@@ -36,6 +39,13 @@
       <div class="box">text</div>
       <div class="break"></div>
     </div>
+    <div class="content">
+      Display properties
+      <br>- block - width by parent, height by content
+      <br>- inline - width by content, height by content, w,h have no effect, think of paragraph of words
+      <br>- inline-block - width by content, height by content, above example
+    </div>
+  </div>
+</body>
 
-  </body>
 </html>
