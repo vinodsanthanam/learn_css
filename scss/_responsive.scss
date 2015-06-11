@@ -1,0 +1,14 @@
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 10;
+$max-width: 1200px;
+
+// Define your breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
+section {
+    @include outer-container;
+      aside { @include span-columns(3); }
+        article { @include span-columns(9); }
+      }
