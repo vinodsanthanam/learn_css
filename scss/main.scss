@@ -1,15 +1,6 @@
-.content {
-  background: #eee;
-  border: 1px solid;
-  border-color: #eee;
-  padding: 1%;
-  width: 80%;
-  color: #595959;
-  font-family: 'Gotham 4r';
-  margin: 2%;
-  border-radius: 8px;
-  position: relative;
-}
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "content";
+
 #footer {
   color: gray;
   font-size: 0.6em;

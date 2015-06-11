@@ -1,2 +1,4 @@
 styles/*.css
 node_modules/
+bower_components/
+
