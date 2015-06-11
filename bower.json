@@ -1,0 +1,17 @@
+{
+  "name": "learn-css",
+  "version": "0.0.1",
+  "dependencies": {
+    "bourbon": "~4.2.2",
+    "neat": "~1.7.2"
+  },
+  "main": "app/scss/main.scss",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
