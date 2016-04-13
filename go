@@ -1,3 +1,3 @@
 npm install
 bower install
-grunt
+./node_modules/.bin/grunt
